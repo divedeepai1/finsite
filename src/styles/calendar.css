@@ -1,0 +1,111 @@
+/* Custom styling for Add Portfolio History calendar - Dark Theme */
+.portfolio-history-calendar {
+  --rdp-cell-size: 32px;
+  --rdp-accent-color: #3B82F6;
+  --rdp-background-color: #1e3a8a;
+  font-size: 13px;
+}
+
+.portfolio-history-calendar .rdp {
+  margin: 0;
+}
+
+.portfolio-history-calendar .rdp-months {
+  width: 100%;
+}
+
+.portfolio-history-calendar .rdp-month {
+  width: 100%;
+  margin: 0;
+}
+
+.portfolio-history-calendar .rdp-table {
+  width: 100%;
+  max-width: none;
+}
+
+.portfolio-history-calendar .rdp-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.portfolio-history-calendar .rdp-caption_label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.portfolio-history-calendar .rdp-head_cell {
+  font-size: 11px;
+  font-weight: 600;
+  color: #9CA3AF;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+.portfolio-history-calendar .rdp-cell {
+  padding: 2px;
+}
+
+.portfolio-history-calendar .rdp-button {
+  width: var(--rdp-cell-size);
+  height: var(--rdp-cell-size);
+  border-radius: 4px;
+  font-size: 13px;
+  color: #E5E7EB;
+  background-color: transparent;
+}
+
+.portfolio-history-calendar .rdp-day_today {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.portfolio-history-calendar .rdp-day_selected {
+  background-color: #3B82F6 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.portfolio-history-calendar .rdp-day_selected:hover {
+  background-color: #2563EB !important;
+}
+
+.portfolio-history-calendar .rdp-button:hover:not(.rdp-day_selected) {
+  background-color: #1a1f2e;
+}
+
+.portfolio-history-calendar .rdp-day_outside {
+  color: #4B5563;
+}
+
+.portfolio-history-calendar .rdp-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.portfolio-history-calendar .rdp-nav_button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: #9CA3AF;
+}
+
+.portfolio-history-calendar .rdp-nav_button:hover {
+  background-color: #1a1f2e;
+  color: #ffffff;
+}
+
+.portfolio-history-calendar .rdp-nav_button_previous {
+  position: absolute;
+  left: 0;
+}
+
+.portfolio-history-calendar .rdp-nav_button_next {
+  position: absolute;
+  right: 0;
+}

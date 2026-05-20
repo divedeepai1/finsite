@@ -1,0 +1,63 @@
+/* Unified Financial Theme - Global Overrides */
+
+/* Background Colors */
+.bg-black { background-color: #0B1120 !important; }
+.bg-gray-900 { background-color: #111827 !important; }
+.bg-gray-800 { background-color: #1F2937 !important; }
+.bg-gray-750 { background-color: #374151 !important; }
+
+/* Text Colors */
+.text-cyan-400 { color: #3B82F6 !important; }
+.text-cyan-500 { color: #3B82F6 !important; }
+.text-gray-400 { color: #9CA3AF !important; }
+.text-gray-500 { color: #6B7280 !important; }
+.text-white { color: #F9FAFB !important; }
+
+/* Border Colors */
+.border-gray-800 { border-color: #1F2937 !important; }
+.border-gray-700 { border-color: #374151 !important; }
+
+/* Hover States */
+.hover\:text-cyan-400:hover { color: #3B82F6 !important; }
+.hover\:text-cyan-500:hover { color: #3B82F6 !important; }
+.hover\:bg-cyan-400:hover { background-color: #3B82F6 !important; }
+.hover\:bg-cyan-500:hover { background-color: #2563EB !important; }
+.hover\:bg-gray-800:hover { background-color: #1F2937 !important; }
+.hover\:bg-gray-750:hover { background-color: #374151 !important; }
+
+/* Button Colors */
+.bg-cyan-400 { background-color: #3B82F6 !important; }
+.bg-cyan-500 { background-color: #2563EB !important; }
+
+/* Focus States */
+.focus\:border-cyan-400:focus { border-color: #3B82F6 !important; }
+
+/* Shadow Effects */
+.shadow-cyan-500\/10 { box-shadow: 0 0 15px rgba(59, 130, 246, 0.1) !important; }
+
+/* Specific green for positive values only */
+.text-green-400 { color: #10B981 !important; }
+.text-green-500 { color: #10B981 !important; }
+.bg-green-500 { background-color: #10B981 !important; }
+.bg-green-600 { background-color: #10B981 !important; }
+.bg-green-700 { background-color: #059669 !important; }
+
+/* Red for error/negative values */
+.text-red-400 { color: #EF4444 !important; }
+.bg-red-900 { background-color: #7F1D1D !important; }
+.bg-red-800 { background-color: #991B1B !important; }
+
+/* Blue variants */
+.text-blue-600 { color: #3B82F6 !important; }
+.bg-blue-600 { background-color: #3B82F6 !important; }
+.bg-blue-900 { background-color: #1E3A8A !important; }
+.text-blue-300 { color: #93C5FD !important; }
+.text-blue-500 { color: #3B82F6 !important; }
+
+/* Green variants for tags/badges */
+.bg-green-900 { background-color: #064E3B !important; }
+.text-green-300 { color: #6EE7B7 !important; }
+
+/* Placeholder text */
+.placeholder-gray-500::placeholder { color: #6B7280 !important; }
+.placeholder-gray-400::placeholder { color: #9CA3AF !important; }
