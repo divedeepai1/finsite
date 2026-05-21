@@ -171,7 +171,7 @@ const ActionCard = ({
 
 export default function CampaignJourneys() {
   const navigate = useNavigate();
-  const [view, setView] = useState<'list' | 'builder' | 'tracking' | 'active' | 'journey'>('journey');
+  const [view, setView] = useState<'list' | 'builder' | 'tracking' | 'active' | 'journey'>('list');
   const [campaigns, setCampaigns] = useState<Campaign[]>(MOCK_CAMPAIGNS);
   const [selectedCampaign, setSelectedCampaign] = useState<Campaign | null>(null);
   
